@@ -3,7 +3,7 @@
 namespace Omnipay\Tests;
 
 use Mockery as m;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase as PHPUnit_Framework_TestCase;
 use ReflectionObject;
 use Guzzle\Common\Event;
 use Guzzle\Http\Client as HttpClient;
