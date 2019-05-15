@@ -24,6 +24,11 @@ abstract class TestCase extends PHPUnit_Framework_TestCase
     private $httpClient;
     private $httpRequest;
 
+    public function tearDown()
+    {
+        m::close();
+    }
+
     /**
      * Converts a string to camel case
      *
